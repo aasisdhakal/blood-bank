@@ -15,9 +15,8 @@ docker
 Dockerfile
 docker-compose.yml
 
-app/Http/Controllers/DonorController.php
-app/Models/Donor.php
-database/migrations/2021_02_17_172025_create_donors_table.php
+.idea
+
 
 
 app/Http/Middleware/ForceJsonResponse.php
