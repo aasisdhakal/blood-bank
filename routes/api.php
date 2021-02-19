@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\DonorController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -14,6 +15,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::middleware('auth:api')->get('/user', function (Request $request) {
-    return $request->user();
-});
+Route::get('/donors', [DonorController::class, 'show']);
+Route::post('/donor', [DonorController::class, 'create']);
+Route::patch('/donor/{id}', [DonorController::class, 'update']);
+Route::delete('/donor/{id}', [DonorController::class, 'destroy']);
+	
