@@ -21,6 +21,7 @@ class DonorResource extends JsonResource
             'age'         => $this->age,
             'sex'         => $this->sex,
             'blood_group' => $this->blood_group,
+            'location'    => $this->location,
             'phone'       => $this->phone,
         ];
     }

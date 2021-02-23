@@ -16,7 +16,3 @@ Dockerfile
 docker-compose.yml
 
 .idea
-
-
-
-app/Http/Middleware/ForceJsonResponse.php
