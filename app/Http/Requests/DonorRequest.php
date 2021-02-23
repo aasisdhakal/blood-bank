@@ -36,11 +36,11 @@ class DonorRequest extends FormRequest
     {
         return [
             'name'        => [$this->necessity, 'string'],
-            'age'         => ['nullable', 'string', 'min:3'],
+            'age'         => ['nullable'],
             'sex'         => [$this->necessity, 'string'],
             'blood_group' => [$this->necessity, 'string'],
             'location'    => [$this->necessity, 'string'],
-            'phone'       => [$this->necessity, 'numeric', 'digits:10'],
+            'phone'       => [$this->necessity, 'numeric'],
         ];
     }
 }

@@ -15,7 +15,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/donors', [DonorController::class, 'show']);
+Route::get('/donors', [DonorController::class, 'index']);
+Route::get('/donor/{id}', [DonorController::class, 'show']);
 Route::post('/donor', [DonorController::class, 'create']);
 Route::patch('/donor/{id}', [DonorController::class, 'update']);
 Route::delete('/donor/{id}', [DonorController::class, 'destroy']);
