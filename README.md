@@ -1,10 +1,10 @@
-# :two_men_holding_hands: Blood Bank Api
+# :two_men_holding_hands: Blood Bank Api :two_women_holding_hands:
 
 # Project Brief
 
-It's a short and sweet project where donors fill their details (name , age , location , gender , blood_group , phone ) and donate life 
+It's a short and sweet project where donors fill their details (name , age , location , gender , blood_group , phone ) and donate life :revolving_hearts:
 
-## Installation of Project
+## :exclamation: Installation of Project :exclamation:
 ### Steps:-
 
 
@@ -22,7 +22,7 @@ It's a short and sweet project where donors fill their details (name , age , loc
 
 - For Fake Data: **php artisan db:seed** 
 
-- Jump with joy
+- Jump with joy :dash:
 
 
 ## Folder Structure
