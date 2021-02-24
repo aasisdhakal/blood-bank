@@ -22,7 +22,7 @@ It's a short and sweet project where donors fill their details (name , age , loc
 
 - For Fake Data: **php artisan db:seed** 
 
--:dash: :dash: Jump with joy :dash: :dash: 
+- :dash: :dash: Jump with joy :dash: :dash: 
 
 
 ## Folder Structure
