@@ -27,19 +27,19 @@ It's a short and sweet project where donors fill their details (name , age , loc
 
 ## Folder Structure
 
-- /controllers is where application logic is
+- :file_folder: /controllers is where application logic is
 
-- /filters is to filter data
+- :file_folder: /filters is to filter data
 
-- /Requests for validating requests 
+- :file_folder: /Requests for validating requests 
 
-- /Resources is for Filtering data 
+- :file_folder: /Resources is for Filtering data 
 
-- /public contain all the assets
+- :file_folder: /public contain all the assets
 
-- /views contain all the front end code
+- :file_folder: /views contain all the front end code
 
-- /model creating and storing the into database
+- :file_folder: /model creating and storing the into database
 
 ## Uses
 
