@@ -1,10 +1,8 @@
-# Blood Bank Api
-
-# Using Dashboard template in Laravel
+# :two_men_holding_hands: Blood Bank Api
 
 # Project Brief
 
-It's a short and sweet project where user must login to see the datatables of registered user.And Only the Admin can delete and create the new user.
+It's a short and sweet project where donors fill their details (name , age , location , gender , blood_group , phone ) and donate life 
 
 ## Installation of Project
 ### Steps:-
@@ -12,20 +10,30 @@ It's a short and sweet project where user must login to see the datatables of re
 
 - Clone the repo :**git clone github.com/oasis001/Vacker360_Task_1.git**
 
+- Make sure that the composer installed on your machine. After That:**composer install** To install packages
+
 - Edit the .env file
 
 - Generate Keys:**php artisan key:generate**
 
-- Set Environment Variable:**cp .env example .env**,the change the environment variables to match your settings
+- Set Environment Variable:**.env example .env**,the change the environment variables to match your settings
 
 - Run migration:**php artisan migrate**
+
+- For Fake Data: **php artisan db:seed** 
 
 - Jump with joy
 
 
 ## Folder Structure
 
-- /controller is where application logic is
+- /controllers is where application logic is
+
+- /filters is to filter data
+
+- /Requests for validating requests 
+
+- /Resources is for Filtering data 
 
 - /public contain all the assets
 
@@ -37,11 +45,9 @@ It's a short and sweet project where user must login to see the datatables of re
 
 http://localhost => navigates to webpage
 
-http://localhost/home => home
+http://localhost/api/donors => Listing Donors
 
-http://localhost/dashboard => dashboard
-
-http://localhost/table => Table
+http://localhost/donor{ID} => Showing/Updating/Deleting donor
 
 
 
