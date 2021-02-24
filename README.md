@@ -8,7 +8,7 @@ It's a short and sweet project where donors fill their details (name , age , loc
 ### Steps:-
 
 
-- Clone the repo :**git clone github.com/oasis001/Vacker360_Task_1.git**
+- Clone the repo :**git clone https://github.com/aasisdhakal/blood-bank.git**
 
 - Make sure that the composer installed on your machine. After That:**composer install** To install packages
 
