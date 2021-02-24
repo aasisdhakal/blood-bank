@@ -6,16 +6,15 @@ use App\Http\Filters\DonorFilter;
 use App\Http\Requests\DonorRequest;
 use App\Http\Resources\DonorResource;
 use App\Models\Donor;
-use phpDocumentor\Reflection\Types\Integer;
 
 class DonorController extends Controller
 {
     
     public function index(DonorFilter $filter, Donor $donor)
     {
-        $donor = $donor->filter($filter)->paginate(getPerPage());
-        
-        return $this->setPagination($donor)->respond(DonorResource::collection($donor));
+        $donor = $donor->filter($filter)->get();
+    
+        return $this->respond(DonorResource::collection($donor));
         
     }
     
