@@ -4,7 +4,7 @@
 
 It's a short and sweet project where donors fill their details (name , age , location , gender , blood_group , phone ) and donate life :revolving_hearts:
 
-## :exclamation: Installation of Project :exclamation:
+## :exclamation: :exclamation: Installation of Project :exclamation: :exclamation:
 ### Steps:-
 
 
@@ -16,13 +16,13 @@ It's a short and sweet project where donors fill their details (name , age , loc
 
 - Generate Keys:**php artisan key:generate**
 
-- Set Environment Variable:**.env example .env**,the change the environment variables to match your settings
+- :open_file_folder: Set Environment Variable:**.env example .env**,the change the environment variables to match your settings :open_file_folder:
 
 - Run migration:**php artisan migrate**
 
 - For Fake Data: **php artisan db:seed** 
 
-- Jump with joy :dash:
+-:dash: :dash: Jump with joy :dash: :dash: 
 
 
 ## Folder Structure
